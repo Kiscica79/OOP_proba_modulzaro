@@ -1,3 +1,5 @@
+package text;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -12,7 +14,13 @@ public class Main {
                 "Ez szintén egy hosszú szöveg, mert több, mint 25 karakter."
         ));
 
-        
+        Text textObj = new Text();
+        textObj.modifyStrings(szovegek);
 
+        for (String text : szovegek) {
+            System.out.println(text);
+        }
     }
+
+
 }
