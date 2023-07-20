@@ -38,6 +38,7 @@ public class Human {
         return getGrandParentsOfMother();
     }
 
+    /*
     public Human[] getGreatGrandParentsOfFather() {
         Human[] greatGrandParentsOfFather = new Human[2];
         if (getGrandParentsOfFather() != null) {
@@ -46,6 +47,8 @@ public class Human {
         }
         return greatGrandParentsOfFather;
     }
+
+     */
 
 
     public String getName() {

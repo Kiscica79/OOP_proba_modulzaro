@@ -6,29 +6,15 @@ import java.util.List;
 
 public class Elephant extends Animals {
 
-    private final String elephantName;
 
-
-
-    public Elephant(List<String> nicknames, String sound, String elephantName) {
-        super(nicknames, sound);
-        this.elephantName = elephantName;
-    }
-
-    public String getElephantName() {
-        return elephantName;
+    public Elephant(String name) {
+        super(name);
     }
 
 
     @Override
-    public String makeSound() {
-        return ("bbúúúúú").concat(super.makeSound());
-
-
+    public void makeSound() {
+        System.out.println("btrrrrrúúúúúúúúúúúú");
     }
 
-    @Override
-    public boolean nicknames(String nickname) {
-        return super.getNicknames().add(nickname);
-    }
 }

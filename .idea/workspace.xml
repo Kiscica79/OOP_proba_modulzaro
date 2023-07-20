@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42a0b082-cb4c-4725-b7a2-582d2b37ba18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_proba_modulzaro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/address/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/address/AddressNotFound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/address/PersonAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/Elephant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/Seacalf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/family/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/family/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text/Text.java" afterDir="false" />
+    <list default="true" id="42a0b082-cb4c-4725-b7a2-582d2b37ba18" name="Changes" comment="Ready">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/Elephant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/Seacalf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/Seacalf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +36,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/orosz/Progmatic_2023/OOP_proba_modulzaro"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,6 +49,18 @@
       <option name="presentableId" value="Default" />
       <updated>1688396550609</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ready">
+      <created>1688407284037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688407284037</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 package animal;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Animals {
@@ -13,21 +14,20 @@ public abstract class Animals {
     //  Minden állat tud hangot kiadni, csak mindegyik másképp, valósítsd meg ezt a működést is!
     //  A programod továbbá legyen képes eltárolni, hogy hány darab állat lett “létrehozva” a cirkuszban!
 
-    private String sound;
+    private final String name;
     private List<String> nicknames;
 
 
-    public Animals(List<String> nicknames, String sound) {
-        this.sound = sound;
+    public Animals(String name) {
+        this.name = name;
+        this.nicknames = new ArrayList<>();
     }
 
-    public String getSound() {
-        return sound;
+    public void addNickname(String nickname) {
+        nicknames.add(nickname);
     }
 
-    public void setSound(String sound) {
-        this.sound = sound;
-    }
+    public abstract void makeSound();
 
     public List<String> getNicknames() {
         return nicknames;
@@ -37,11 +37,5 @@ public abstract class Animals {
         this.nicknames = nicknames;
     }
 
-    public String makeSound() {
-         return this.sound+" !!!!";
-
-    }
-
-    public abstract boolean nicknames(String nickname);
 
 }
